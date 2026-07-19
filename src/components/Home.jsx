@@ -5,6 +5,7 @@ import { signOut } from "firebase/auth";
 import { ref, push, set } from "firebase/database";
 import Recipes from "./Recipes";
 import Profile from "./Profile";
+import Footer from "./Footer";
 
 const menuItems = ["Dashboard", "Recipes", "Shopping List", "Favorites", "Your Profile"];
 const UNIT_OPTIONS = ["g", "ml", "cup", "tsp", "tbsp", "piece"];
@@ -307,6 +308,7 @@ const Home = () => {
         )}
 
       </div>
+        <Footer/>
     </main>
   );
 };

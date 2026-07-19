@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { db } from "../firebaseConfig";
 import { ref, onValue, update } from "firebase/database";
 import { updateEmail } from "firebase/auth";
+import Footer from "./Footer";
 
 const Profile = ({ user }) => {
   const [isEditing, setIsEditing] = useState(false);

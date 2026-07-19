@@ -7,10 +7,10 @@ import {
 } from "react-router-dom";
 import { auth } from "./firebaseConfig";
 import { onAuthStateChanged } from "firebase/auth";
-
 import LoginPage from "./components/LoginPage";
 import Register from "./components/Register";
 import Home from "./components/Home";
+import About from "./components/About";
 
 // 1. Wrapper to protect the Dashboard/Home
 const ProtectedRoute = ({ user, children }) => {
@@ -85,6 +85,7 @@ function App() {
             </ProtectedRoute>
           }
         />
+        <Route path="/about" element={<About />} />
       </Routes>
     </Router>
   );
