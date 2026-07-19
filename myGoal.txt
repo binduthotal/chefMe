@@ -1,0 +1,42 @@
+Project Aim 
+
+- The main aim pf the project is create own recipes , add recipies,
+    the recipies we forget from our ancesters
+- We can add any recipie and store it in our accout for future reference
+- we can share this recipes to firends, family, social media
+- mark our favourite recipies
+- can create shopping list
+- maintain the user profile
+- save videos from youtube for future use
+- Purpose of this app is save the recipe , share, refer for future use Exactly
+
+ToDO
+
+- Create user login
+- maintain user profile
+- when user added the recipe it must be saved in the database
+- Saved Recipes tab
+- user can share the recipe through email, whatsapp, and 
+    more to explore how to share the actual recipe from the app 
+    to other user profile from the same application
+- can create shopping list tab
+- saved youtube videos tab
+- Dashboard to add recipe
+- Tabs -> Dashboard 
+        -> Saved Recipes
+        -> Saved Youtube videos 
+        -> shopping list
+        -> Favourites 
+        -> User profile
+- If possible add AI agents 
+
+TechStack
+
+- HTML
+- CSS
+- Javascript
+- React + Vite
+- Firebase Database
+- FIrebase Hosting
+- Tailwind
+
