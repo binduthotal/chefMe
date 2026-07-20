@@ -1,0 +1,21 @@
+{
+  "short_name": "Me Chef",
+  "name": "Me Chef - Recipe Vault",
+  "icons": [
+    {
+      "src": "logo192.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#EBD5AB",
+  "display": "standalone",
+  "theme_color": "#628141",
+  "orientation": "portrait"
+}

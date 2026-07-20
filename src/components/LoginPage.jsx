@@ -42,8 +42,7 @@ const LoginPage = () => {
   };
 
   return (
-    <main className="min-h-screen bg-[#EBD5AB] flex items-center justify-center p-4 selection:bg-[#8BAE66] selection:text-white font-sans">
-      <div className="w-full max-w-md bg-white/70 backdrop-blur-xl rounded-[32px] border border-white p-8 sm:p-10 shadow-2xl shadow-[#628141]/10 animate-in fade-in zoom-in-95 duration-300">
+<main className="min-h-screen bg-[url('/kitchen-bg.jpg')] bg-cover bg-center bg-fixed flex items-center justify-center p-4 selection:bg-[#8BAE66] selection:text-white font-sans">      <div className="w-full max-w-md bg-white/70 backdrop-blur-xl rounded-[32px] border border-white p-8 sm:p-10 shadow-2xl shadow-[#628141]/10 animate-in fade-in zoom-in-95 duration-300">
         
         {/* Logo */}
         <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-[#628141] text-white shadow-xl shadow-[#628141]/20">

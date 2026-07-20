@@ -150,10 +150,10 @@ const Recipes = ({ user, filterFavorites = false }) => {
         <div key={recipe.id} className="group flex flex-col bg-white rounded-[24px] border border-[#628141]/20 shadow-sm hover:shadow-xl hover:shadow-[#628141]/10 hover:-translate-y-1 transition-all duration-300 overflow-hidden">
           <div className="p-5 border-b border-[#1B211A]/5 flex-1 relative">
             <div className="absolute top-4 right-4 flex gap-1.5 opacity-0 group-hover:opacity-100 transition-opacity bg-white/90 backdrop-blur-sm p-1.5 rounded-xl border border-[#628141]/10 shadow-sm">
-              <button onClick={(e) => handleShare(e, recipe)} className="p-1.5 hover:bg-[#EBD5AB]/50 rounded-lg text-[#628141] transition" title="Share">
+              <button onClick={(e) => handleShare(e, recipe)} className="cursor-pointer p-1.5 hover:bg-[#EBD5AB]/50 rounded-lg text-[#628141] transition" title="Share">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path></svg>
               </button>
-              <button onClick={(e) => toggleFavorite(e, recipe)} className="p-1.5 hover:bg-[#EBD5AB]/50 rounded-lg transition" title="Favorite">
+              <button onClick={(e) => toggleFavorite(e, recipe)} className="cursor-pointer p-1.5 hover:bg-[#EBD5AB]/50 rounded-lg transition" title="Favorite">
                 <svg className={`w-4 h-4 ${recipe.isFavorite ? 'fill-amber-400 text-amber-400' : 'fill-none text-[#628141]/50'}`} stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
               </button>
             </div>
@@ -178,7 +178,7 @@ const Recipes = ({ user, filterFavorites = false }) => {
 
           <div className="bg-[#EBD5AB]/20 p-4 px-5 flex justify-between items-center text-xs font-bold text-[#1B211A]/60">
             <span>{recipe.ingredients ? recipe.ingredients.length : 0} Ingredients</span>
-            <button onClick={() => setSelectedRecipe(recipe)} className="text-[#628141] hover:text-[#1B211A] transition">
+            <button onClick={() => setSelectedRecipe(recipe)} className="cursor-pointer text-[#628141] hover:text-[#1B211A] transition">
               View Details →
             </button>
           </div>
