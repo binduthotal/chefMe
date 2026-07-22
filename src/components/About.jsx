@@ -43,7 +43,7 @@ const About = () => {
               Created by Bindu, this application was born out of a desire to document, save, and easily share the recipes that matter most. Whether it's a generations-old family secret, a festive feast, or a quick weekend experiment, Me Chef provides a beautifully organized space to keep your culinary journey alive.
             </p>
             <p>
-              We believe that every recipe has a story, and this platform is designed to make sure those stories are never lost.
+              I believe that every recipe has a story, and this platform is designed to make sure those stories are never lost.
             </p>
           </div>
 

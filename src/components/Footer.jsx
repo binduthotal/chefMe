@@ -8,7 +8,7 @@ const Footer = () => {
         
         {/* Left Side: Copyright */}
         <p className="text-sm font-bold text-[#1B211A]/60 transition-colors hover:text-[#628141]">
-          &copy; 2026 Made by Bindu. All rights reserved.
+          &copy; 2026 crafted by Bindu. All rights reserved.
         </p>
         <div className="hidden sm:block h-6 w-px bg-[#1B211A]/20"></div> 
         {/* Right Side: About Link */}

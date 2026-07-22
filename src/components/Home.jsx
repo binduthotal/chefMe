@@ -237,15 +237,14 @@ const Home = () => {
         {activeTab === "Dashboard" && (
           <div className="animate-in fade-in duration-300">
             <div className="mb-8">
-              <p className="text-sm font-bold uppercase tracking-widest text-[#628141] mb-1">
+              {/* <p className="text-sm font-bold uppercase tracking-widest text-[#628141] mb-1">
                 Welcome Back
-              </p>
-              <h1 className="text-3xl sm:text-4xl font-black text-[#1B211A]">
-                Hello, {displayName}
+              </p> */}
+              <h1 className="text-3xl sm:text-3xl font-black text-[#1B211A]">
+                Hi, {displayName}
               </h1>
-              <p className="mt-2 text-[#1B211A]/70">
-                Create, save, and share your culinary heritage with your loved
-                ones.
+              <p className="mt-2 text-[#1B211A]/70 font-mono italic">
+               A home for every recipe you love: the passed-down, the shared, and the deliciously experimental.
               </p>
             </div>
 
@@ -500,7 +499,7 @@ const Home = () => {
                   setActiveTab("Dashboard");
                   setIsAddingRecipe(true);
                 }}
-                className="cursor-pointer inline-flex items-center gap-2 rounded-xl bg-[#628141] px-5 py-2.5 text-sm font-bold text-white shadow-md shadow-[#628141]/30 hover:bg-[#1B211A] transition"
+                className="cursor-pointer inline-flex items-center gap-2 rounded-xl bg-[#496329] px-5 py-2.5 text-sm font-bold text-white shadow-md shadow-[#628141]/30 hover:bg-[#1B211A] transition"
               >
                 + New Recipe
               </button>
